@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class menuofchosse {
+public class MenuOfchosse {
    static Scanner sc =new Scanner(System.in);
    //here is klart bror
     //Okej

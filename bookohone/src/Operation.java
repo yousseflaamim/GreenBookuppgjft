@@ -13,7 +13,7 @@ public class Operation  {
     public static ArrayList<Vistore> list2 = new ArrayList<Vistore>();
 
 
-    static menuofchosse m = new menuofchosse();
+    static MenuOfchosse m = new MenuOfchosse();
     static Scanner scanner = new Scanner(System.in);
 
     public Operation()  {
@@ -29,15 +29,15 @@ public class Operation  {
                  switch (ax) {
                      case 1:
                          addnew();
-                         menuofchosse.menu();
+                         MenuOfchosse.menu();
                          break;
                      case 2:
                          showall();
-                         menuofchosse.menu();
+                         MenuOfchosse.menu();
                          break;
                      case 3:
                          updtcontact();
-                         menuofchosse.menu();
+                         MenuOfchosse.menu();
                          break;
                      default:
                          break;
@@ -81,7 +81,7 @@ public class Operation  {
 
 
          System.out.println("contact add sucssfule");
-         menuofchosse.menu();
+         MenuOfchosse.menu();
      }catch (Exception e){
          System.out.println("information isn't correct pleas try aging");
      }
@@ -100,7 +100,7 @@ public class Operation  {
                         case 3 -> searchByname();
                         case 4 -> searchBynumberPhone();
                         case 5 -> searchByage();
-                        case 6 -> menuofchosse.menu();
+                        case 6 -> MenuOfchosse.menu();
                         default -> {
                         }
 
@@ -137,7 +137,7 @@ public class Operation  {
       }catch (Exception e){
           System.out.println("information isn't correct pleas try aging");
       }
-        menuofchosse.searchMeue();
+        MenuOfchosse.searchMeue();
     }
     ///////////////////////////search name//////////////////
     public static void searchByname() {
@@ -162,7 +162,7 @@ public class Operation  {
       }catch (Exception e){
           System.out.println("information isn't correct pleas try aging");
       }
-        menuofchosse.searchMeue();
+        MenuOfchosse.searchMeue();
 
     }
 /////////////////////////////////////search streat/////////////////////
@@ -188,7 +188,7 @@ public class Operation  {
       }catch (Exception e){
           System.out.println("information isn't correct pleas try aging");
       }
-        menuofchosse.searchMeue();
+        MenuOfchosse.searchMeue();
     }
 ///////////////////////////////search numberphone/////////////////
     public static void searchBynumberPhone() {
@@ -214,7 +214,7 @@ public class Operation  {
       }catch (Exception e){
           System.out.println("Information isn't correct please try again");
       }
-        menuofchosse.searchMeue();
+        MenuOfchosse.searchMeue();
 
     }
 /////////////////////////////search age/////////////////////
@@ -241,7 +241,7 @@ public class Operation  {
         }catch (Exception e){
            System.out.println("Information isn't correct please try again");
        }
-        menuofchosse.searchMeue();
+        MenuOfchosse.searchMeue();
 
     }
 ////////////////////////////show all lista//////////////////////////
@@ -256,7 +256,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
     }
 }
 
-        menuofchosse.menu();
+        MenuOfchosse.menu();
     }
 
 ///////////////////////////////update contact///////////////////////////////
@@ -273,7 +273,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                     case 3 -> numberPhoneUppdater();
                     case 4 -> afterNameUpdatera();
                     case 5 -> ageUppdater();
-                    case 6 -> menuofchosse.menu();
+                    case 6 -> MenuOfchosse.menu();
                 }
             } else {
                 System.out.println("Please choose 1 to 5 ");
@@ -313,7 +313,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println(" :( you are not manger :( ");
             }
         }
-        menuofchosse.updatera();
+        MenuOfchosse.updatera();
     }
 ////////////////////////////////update city/////////////////////
     public static void cityUpdatera() {
@@ -345,7 +345,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println(" :( you are not manger :(");
             }
         }
-        menuofchosse.updatera();
+        MenuOfchosse.updatera();
 
     }
 ////////////////////////////update numberphone//////////////////////////
@@ -378,7 +378,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println(" :( you are not manger :(");
             }
         }
-        menuofchosse.updatera();
+        MenuOfchosse.updatera();
 
     }
 ////////////////////////////////update age//////////////////
@@ -412,7 +412,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println(" :( you are not manger :(");
             }
         }
-        menuofchosse.updatera();
+        MenuOfchosse.updatera();
 
     }
 ///////////////////////////update after name////////////////
@@ -445,7 +445,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println(" :( you are not manger :( ");
             }
         }
-        menuofchosse.updatera();
+        MenuOfchosse.updatera();
 
     }
 /////////////////////////deleted menu////////////////
@@ -467,7 +467,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                             deletedAll();
                             break;
                         case 4:
-                            menuofchosse.menu();
+                            MenuOfchosse.menu();
                             break;
 
                     }
@@ -510,7 +510,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
             }
 
         }
-        menuofchosse.deletcontact();
+        MenuOfchosse.deletcontact();
 
     }
 ////////////////////////////////////deleted all//////////////
@@ -536,7 +536,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println("information isn't correct pleas try aging");
             }
         }
-        menuofchosse.deletcontact();
+        MenuOfchosse.deletcontact();
     }
 /////////////////////////////////add administer//////////////////
     public static void addaAdminster() {
@@ -562,7 +562,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
             }
             Adminstratore admin = new Adminstratore(namadmins, aftrdmins, phondmins, type, id);
             list1.add(admin);
-            //  menuofchosse.menu();
+            //  MenuOfchosse.menu();
         }catch (Exception e){
             System.out.println("information isn't correct pleas try aging");
         }
@@ -624,7 +624,7 @@ if(list.isEmpty()) {System.out.println("lista is empty");}else {
                 System.out.println("add visitor is suffuse");
             } catch (Exception e) {
                 System.out.println("isn't correct try aging");
-            }//menuofchosse.menu();
+            }//MenuOfchosse.menu();
         }
 
     }

@@ -14,7 +14,7 @@ public class MenuOfchosse {
         System.out.println(".............................");
         System.out.println("..<<<menu of green book>>....");
         System.out.println(".............................");
-        System.out.println(".......0 entr with manger.....");
+        System.out.println(".......0 entry with manger.....");
         System.out.println(".............................");
         System.out.println(" .....1 add new contact......");
         System.out.println(".............................");
@@ -82,7 +82,7 @@ public class MenuOfchosse {
         System.out.println(".............................");
         System.out.println("... 2 listaOfadminst ..");
         System.out.println("..............................");
-        System.out.println("..... 3 lista of vistore......");
+        System.out.println("..... 3 list of vistore......");
         System.out.println("...............................");
         System.out.println("..... 4 add vistore............");
         System.out.println(".............................");
@@ -103,7 +103,7 @@ public class MenuOfchosse {
 
                     }
                 } else {
-                    System.out.println("plas chose number 1 to 5");
+                    System.out.println("plaes chose number 1 to 5");
                 }
 
             }catch (Exception e){
@@ -119,7 +119,7 @@ public class MenuOfchosse {
         System.out.println("...........................");
         System.out.println("...1 add new contact.........");
         System.out.println("...........................");
-        System.out.println("...2 showlista.............");
+        System.out.println("...2 showlist.............");
         System.out.println(".............................");
         System.out.println("...4 back to menu............");
         System.out.println("...........................");
@@ -131,7 +131,7 @@ public class MenuOfchosse {
     public static void searchMeue() {
         System.out.println("...............................");
         System.out.println("....<<..searchmenu..>>..........");
-        System.out.println("....0 showlista.........");
+        System.out.println("....0 showlist.........");
         System.out.println("...............................");
         System.out.println("....1 search by name...........");
         System.out.println("...............................");
@@ -193,3 +193,5 @@ public class MenuOfchosse {
     }
 
 }
+
+
